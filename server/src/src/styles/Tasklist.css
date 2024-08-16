@@ -1,0 +1,107 @@
+vedio source{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+.aa{
+    position: absolute;
+    top: 90px;
+    right: 600px;
+}
+
+#alltasksshow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#taskshow{
+    width: 30%;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: aqua;
+    margin-left: 100px;
+}
+
+#taskshow:hover{
+    cursor: pointer;
+}
+
+#taskshow > img{
+    width: 86%;
+    height: 52%;
+    margin-top: 10px;
+}
+
+#taskshow > p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+#taskshow > p:nth-child(2){
+    margin-top: 20px;
+}
+
+#taskshow > p:nth-child(3){
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#taskshow > p:nth-child(4){
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+#taskshow > button{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 20%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color:bisque;
+    color: white;
+}
+
+#editForm{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color:gray ;
+    
+    margin-left: 900px;
+   position: absolute;
+   top: 120px;
+    border: 2px solid;
+    margin-bottom: 20px;
+}
+
+#editForm>input{
+    margin-top: 10px;
+    height: 30px;
+}
+
+#editForm>textarea{
+    margin-top: 10px;
+}
+
+#editForm>select{
+    margin-top: 10px;
+    height: 30px;
+}
+
+#editForm>button{
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    width: 26%;
+}

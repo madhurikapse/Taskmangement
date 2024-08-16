@@ -1,0 +1,14 @@
+.task{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    background-color:pink;
+    position: absolute;
+    top: 200px;
+    right: 400px;
+
+    margin: auto;
+}
+.ar-main{
+    background-color: pink;
+}

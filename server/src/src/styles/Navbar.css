@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .parentdiv {
+    margin: auto;
+    width: 100%;
+  }
+
+  .Navbar2{
+    height: 80px;
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color:gray;
+    padding-right: 12px;
+    gap: 30px;
+    line-height: 1.5;
+  }
+  
+
+  .leftNavbar2{
+    width: 20%;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 22px;
+    font-weight: 700;
+  }
+
+  #leftnavbarimg{
+    height: 100%;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  #leftnavbarimg > img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .rightNavbar2{
+    width: 70%;
+    outline-color: white;
+    border-color: white;
+    padding-left: 6px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .options{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.options > div:hover{
+    cursor: pointer;
+}
